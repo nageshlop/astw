@@ -1,5 +1,4 @@
 language: node_js
-sudo: true
 arch:
   - amd64
   - ppc64le
@@ -9,4 +8,4 @@ node_js:
   - "0.12"
   - "iojs"
 before_install:
-  - sudo npm install -g npm@~1.4.6
+  - npm -g install npm@latest
