@@ -8,4 +8,4 @@ node_js:
   - "0.12"
   - "iojs"
 before_install:
-  - npm -g install npm@latest
+  - npm install -g npm@~1.4.6
